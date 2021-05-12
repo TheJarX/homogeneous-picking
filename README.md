@@ -11,7 +11,7 @@ Gem to generate a homogeneous list form an NxN data matrix based on a Round-Robi
                0   1   2
     ]
 
-    To get 'a' whe must access to the first element of the first column and the first row (A[0, 0])
+    To get 'a' whe must access to the first element of the first row and the first column (A[0, 0])
 
 ## Installation
 
@@ -44,6 +44,7 @@ Ok, now you're ready
 > You can play with datasets included in `spec/datasets`
 
 ## Usage
+Example 1:
 ```ruby
 square_matrix = [
     ['a0', 'a1', 'a2'],
@@ -57,6 +58,19 @@ picker = Picker.new(square_matrix)
 sample = picker.pick(4)
 puts sample # ['a0', 'b0', 'c0', 'd0']
 
+```
+Example 2:
+```ruby
+matrix_a = [
+    ['a0'],
+    ['b0', 'b1'],
+    ['c0', 'c1', 'c2'],
+]
+
+picker = Picker.new(matrix_a)
+
+sample = picker.pick(4)
+puts sample # ['a0', 'b0', 'c0', 'b1']
 ```
 
 ## License
