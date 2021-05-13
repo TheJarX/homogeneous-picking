@@ -1,6 +1,6 @@
 # HomogeneousPicking
 
-Gem to generate a homogeneous list form an NxN data matrix based on a Round-Robin approach.
+Gem to generate a homogeneous list from an NxN data matrix based on a Round-Robin approach.
 
     ⚠️ This gem interprets a matrix like this:
     A = [
@@ -29,7 +29,7 @@ Or install it yourself as:
 
     $ gem install homogeneous-picking
 
-## Runing tests
+## Running tests
 
 To check if everything is ok, run the tests.
 
