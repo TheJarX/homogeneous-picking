@@ -47,10 +47,10 @@ Ok, now you're ready
 Example 1:
 ```ruby
 square_matrix = [
-    ['a0', 'a1', 'a2'],
-    ['b0', 'b1', 'b2'],
-    ['c0', 'c1', 'c2'],
-    ['d0', 'd1', 'd2'],
+    ['a0', 'a1', 'a2', 'a3'],
+    ['b0', 'b1', 'b2', 'b3'],
+    ['c0', 'c1', 'c2', 'c3'],
+    ['d0', 'd1', 'd2', 'd3'],
 ]
 
 picker = Picker.new(square_matrix)
